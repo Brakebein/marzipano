@@ -1,3 +1,5 @@
+import { mat4, vec4 } from 'gl-matrix'
+
 declare module 'marzipano' {
   /*****************
    **** Classes ***
@@ -640,6 +642,26 @@ declare module 'marzipano' {
     removeEventListener(event: Event, callback: Function)
   }
 
+  export class WebVrView {
+    type: 'rectilinear'
+
+    destroy(): void
+
+    size(size?: Size): Size
+
+    setSize(size: Size): void
+
+    projection(): mat4
+
+    inverseProjection(): mat4
+
+    setProjection(proj: mat4): void
+
+    selectLevel(levelList: number[]): number
+
+    intersects(rectangle: [number, number][]): boolean
+  }
+
   /**
    * ScrollZoomControlMethod
    */
@@ -864,6 +886,7 @@ declare module 'marzipano' {
       preserveDrawingBuffer?: boolean
       generateMipmaps?: boolean
       wrapContext?: boolean
+      xrCompatible?: boolean
     })
 
     addLayer(layer: Layer, i?: number): void

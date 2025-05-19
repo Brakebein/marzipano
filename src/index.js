@@ -67,6 +67,8 @@ module.exports = {
   Viewer: require('./Viewer'),
   Scene: require('./Scene'),
 
+  WebVrView: require('./WebVrView'),
+
   // Hotspots.
   Hotspot: require('./Hotspot'),
   HotspotContainer: require('./HotspotContainer'),
