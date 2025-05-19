@@ -5,9 +5,19 @@
 npm-debug.log
 /tmp/*
 /build/*
+/demos/*
 /dist/*
 /docs/*
-/test/test_suite.js*
+/scripts/*
+/test/*
+.idea
+
+.jshintrc
+.travis.yml
+CONTRIBUTING.md
+jsdoc.md
+jsdoc-conf.json
+testem.json
 
 # Publish build to npm.
 !/dist/marzipano.js

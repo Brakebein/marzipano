@@ -14,15 +14,20 @@ Related GitHub issue or pull request numbers are indicated in brackets.
 
 # Upcoming release
 
+# v0.10.4 [2025-05-19]
+
+* New: add WebXR demo, add WebVrView
+* updated bowser and gl-matrix dependencies
+
 # v0.10.3 [2023-10-08]
 
-# New: add typescript definitions
+* New: add typescript definitions
 
 # v0.10.2 [2021-03-18]
 
-# New: implement a pinch drag mode.
-# Fix: prevent infinite loop when movement callback starts new movement (#364).
-# Fix: buggy image cropping on Firefox (#369).
+* New: implement a pinch drag mode.
+* Fix: prevent infinite loop when movement callback starts new movement (#364).
+* Fix: buggy image cropping on Firefox (#369).
 
 # v0.10.1 [2020-12-23]
 

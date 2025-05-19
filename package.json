@@ -1,6 +1,6 @@
 {
-  "name": "marzipano",
-  "version": "0.10.3",
+  "name": "@brakebein/marzipano",
+  "version": "0.10.4",
   "description": "A 360° media viewer for the modern web",
   "author": "Google Inc.",
   "license": "Apache-2.0",
@@ -9,7 +9,7 @@
   "homepage": "http://www.marzipano.net",
   "repository": {
     "type": "git",
-    "url": "https://github.com/google/marzipano.git"
+    "url": "https://github.com/Brakebein/marzipano.git"
   },
   "bugs": {
     "url": "https://github.com/google/marzipano/issues"
@@ -23,8 +23,8 @@
     "prepublishOnly": "scripts/prepublish"
   },
   "dependencies": {
-    "bowser": "1.9.4",
-    "gl-matrix": "3.3.0",
+    "bowser": "^2.0.0",
+    "gl-matrix": "^3.4.1",
     "hammerjs": "2.0.4",
     "minimal-event-emitter": "1.0.0"
   },
